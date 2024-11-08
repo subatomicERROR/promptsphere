@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.prose {
+  max-width: 100ch;
+}
+
+.prose pre {
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.prose code {
+  color: #a5b4fc;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  color: white;
+}
+
+.prose p, .prose li {
+  color: #9ca3af;
+}
+
+.prose strong {
+  color: white;
+}
